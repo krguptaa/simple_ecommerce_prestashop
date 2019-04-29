@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.prestashop.com/en/blog/feed.xml" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:og="http://ogp.me/ns#" xmlns:article="http://ogp.me/ns/article#" xmlns:book="http://ogp.me/ns/book#" xmlns:profile="http://ogp.me/ns/profile#" xmlns:video="http://ogp.me/ns/video#" xmlns:product="http://ogp.me/ns/product#" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <channel>
+    <title>Blog Feed</title>
+    <link>https://www.prestashop.com/en/blog/feed.xml</link>
+    <description></description>
+    <language>en</language>
+     <atom:link href="https://www.prestashop.com/en/blog/feed.xml" rel="self" type="application/rss+xml" />
+      <item>
+    <title>Is cryptocurrency the E-Commerce Game Changer? Here you go!</title>
+    <link>https://www.prestashop.com/en/blog/cryptocurrency-the-e-commerce-game-changer</link>
+    <description>Cryptocurrency is the hottest cake in the market right now and bringing it into E-commerce shall take the booming industry to much greater heights.</description>
+     <pubDate>Fri, 26 Apr 2019 16:10:05 +0200</pubDate>
+ <dc:creator>Shamla Tech Agency</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/en/blog/cryptocurrency-the-e-commerce-game-changer</guid>
+  </item>
+  <item>
+    <title>The Ultimate SEO Checklist for PrestaShop (2019)</title>
+    <link>https://www.prestashop.com/en/blog/ultimate-seo-checklist-for-prestashop</link>
+    <description>Search Engine Optimization (SEO) has become an integral part of promoting and marketing a website online.</description>
+     <pubDate>Fri, 19 Apr 2019 10:32:09 +0200</pubDate>
+ <dc:creator>Zeeshan Khalid</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/en/blog/ultimate-seo-checklist-for-prestashop</guid>
+  </item>
+  <item>
+    <title>New developments at PrestaShop! What’s the latest?</title>
+    <link>https://www.prestashop.com/en/blog/new-features-prestashop-2019</link>
+    <description>We often say that a picture is worth a thousand words.</description>
+     <pubDate>Thu, 18 Apr 2019 17:17:30 +0200</pubDate>
+ <dc:creator>Méguy Solvet</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/en/blog/new-features-prestashop-2019</guid>
+  </item>
+  <item>
+    <title>5 signs you need a PIM system for your PrestaShop</title>
+    <link>https://www.prestashop.com/en/blog/pim-system-for-your-prestashop</link>
+    <description>Do you need to integrate your PrestaShop webshop with a Product Information Management system? That depends on a couple of things. Is your product range quite small?</description>
+     <pubDate>Mon, 08 Apr 2019 11:49:52 +0200</pubDate>
+ <dc:creator>H1 Webdevelopment EN</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/en/blog/pim-system-for-your-prestashop</guid>
+  </item>
+  <item>
+    <title>PrestaShop increases the stability of version 1.7</title>
+    <link>https://www.prestashop.com/en/blog/stability-version-1-7</link>
+    <description>The latest version of PrestaShop was launched in December 2018.</description>
+     <pubDate>Fri, 05 Apr 2019 12:15:03 +0200</pubDate>
+ <dc:creator>MLNielsen</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/en/blog/stability-version-1-7</guid>
+  </item>
+  <item>
+    <title>Four International Brands Using PrestaShop E-commerce in China</title>
+    <link>https://www.prestashop.com/en/blog/prestashop-ecommerce-china-international-brands</link>
+    <description>Despite the ups and downs of the local economy, E-commerce continues to be a positive trend in China. The Chinese market has become a major goal for international brands.</description>
+     <pubDate>Mon, 25 Mar 2019 11:36:30 +0100</pubDate>
+ <dc:creator>QPSoftware</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/en/blog/prestashop-ecommerce-china-international-brands</guid>
+  </item>
+  <item>
+    <title>5 Great Tips for Combating Credit Card Fraud for Your Webshop</title>
+    <link>https://www.prestashop.com/en/blog/tips-for-combating-credit-card-fraud</link>
+    <description>As we are increasingly shopping on the internet, tons of companies are accepting </description>
+     <pubDate>Fri, 22 Mar 2019 15:08:10 +0100</pubDate>
+ <dc:creator>bulldesign</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/en/blog/tips-for-combating-credit-card-fraud</guid>
+  </item>
+  <item>
+    <title>Open source, PrestaShop, project, company, etc.by Antoine Thomas, Developer Advocate at PrestaShop</title>
+    <link>https://www.prestashop.com/en/blog/open-source-prestashop-project-company</link>
+    <description>Here is a review to clarify certain recurring questions.</description>
+     <pubDate>Wed, 20 Mar 2019 12:26:25 +0100</pubDate>
+ <dc:creator>Antoine Thomas</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/en/blog/open-source-prestashop-project-company</guid>
+  </item>
+  <item>
+    <title>10 key steps after installing your PrestaShop online store</title>
+    <link>https://www.prestashop.com/en/blog/the-10-recommended-steps-installing-your-online-store</link>
+    <description>If you are reading this article, that means you have installed and created your online store with PrestaShop: congratulations!</description>
+     <pubDate>Mon, 18 Mar 2019 12:01:09 +0100</pubDate>
+ <dc:creator>Sarah Dib</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/en/blog/the-10-recommended-steps-installing-your-online-store</guid>
+  </item>
+  <item>
+    <title>Dropshipping, tips and advice to create your ecommerce website without stock</title>
+    <link>https://www.prestashop.com/en/blog/dropshipping-tips-and-advice-website-without-stock</link>
+    <description>In very simple terms, “Dropshipping” is a business strategy in which an online store owner does not keep goods in stock but helps retailers or customers to access goods directly from the manufactur</description>
+     <pubDate>Fri, 15 Mar 2019 11:50:32 +0100</pubDate>
+ <dc:creator>Invertus</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/en/blog/dropshipping-tips-and-advice-website-without-stock</guid>
+  </item>
+  </channel>
+</rss>
