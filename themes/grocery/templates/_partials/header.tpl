@@ -52,7 +52,42 @@
             {/if}
         </div>
         <div class="col-md-10 col-sm-12 position-static">
-          {hook h='displayTop'}
+          
+                  <div class="top-links">
+                    <div class="top-search">
+                        <form>
+                            <input type="text" placeholder="Search Deals">
+                            <button><i class="fas fa-search"></i></button>
+                        </form>
+                    </div>
+                    <div class="login-links">
+                        <ul class="list-unstyled m-0">
+                          <li><a href="#"><i class="far fa-user-circle"></i> Login</a></li>
+                            
+                        </ul>
+                    </div>
+                    <div class="cart-links">
+                        <ul class="list-unstyled m-0">
+                          <li><a href="#" class="heart"><i class="fas fa-heart"></i></a></li>
+                            <li><a href="#"><i class="fas fa-shopping-bag"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="social-links">
+                      <ul class="list-unstyled m-0">
+                          <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="lang-links">
+                        <ul class="list-unstyled m-0">
+                          <li><a href="#"><img src="inc/img/english.jpg" alt=""/></a></li>
+                          <li><a href="#"><img src="inc/img/french.jpg" alt=""/></a></li>
+                        </ul>
+                    </div>
+                  </div>
+                
           <div class="clearfix"></div>
         </div>
       </div>
