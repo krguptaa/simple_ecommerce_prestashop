@@ -1,0 +1,79 @@
+[14-Apr-2018 16:16:03 Europe/London] PHP Fatal error:  Uncaught Error: Class 'PrivateShop' not found in /home/newelviisufco/public_html/override/classes/controller/FrontController.php:86
+Stack trace:
+#0 /home/newelviisufco/public_html/init.php(31): FrontController->init()
+#1 /home/newelviisufco/public_html/modules/blockwishlist/managewishlist.php(31): require_once('/home/newelviis...')
+#2 {main}
+  thrown in /home/newelviisufco/public_html/override/classes/controller/FrontController.php on line 86
+[14-Apr-2018 16:16:06 Europe/London] PHP Fatal error:  Uncaught Error: Class 'PrivateShop' not found in /home/newelviisufco/public_html/override/classes/controller/FrontController.php:86
+Stack trace:
+#0 /home/newelviisufco/public_html/init.php(31): FrontController->init()
+#1 /home/newelviisufco/public_html/modules/blockwishlist/managewishlist.php(31): require_once('/home/newelviis...')
+#2 {main}
+  thrown in /home/newelviisufco/public_html/override/classes/controller/FrontController.php on line 86
+[14-Apr-2018 16:16:59 Europe/London] PHP Fatal error:  Uncaught Error: Class 'PrivateShop' not found in /home/newelviisufco/public_html/override/classes/controller/FrontController.php:86
+Stack trace:
+#0 /home/newelviisufco/public_html/init.php(31): FrontController->init()
+#1 /home/newelviisufco/public_html/modules/blockwishlist/managewishlist.php(31): require_once('/home/newelviis...')
+#2 {main}
+  thrown in /home/newelviisufco/public_html/override/classes/controller/FrontController.php on line 86
+[14-Apr-2018 16:17:02 Europe/London] PHP Fatal error:  Uncaught Error: Class 'PrivateShop' not found in /home/newelviisufco/public_html/override/classes/controller/FrontController.php:86
+Stack trace:
+#0 /home/newelviisufco/public_html/init.php(31): FrontController->init()
+#1 /home/newelviisufco/public_html/modules/blockwishlist/managewishlist.php(31): require_once('/home/newelviis...')
+#2 {main}
+  thrown in /home/newelviisufco/public_html/override/classes/controller/FrontController.php on line 86
+[14-Apr-2018 16:17:03 Europe/London] PHP Fatal error:  Uncaught Error: Class 'PrivateShop' not found in /home/newelviisufco/public_html/override/classes/controller/FrontController.php:86
+Stack trace:
+#0 /home/newelviisufco/public_html/init.php(31): FrontController->init()
+#1 /home/newelviisufco/public_html/modules/blockwishlist/managewishlist.php(31): require_once('/home/newelviis...')
+#2 {main}
+  thrown in /home/newelviisufco/public_html/override/classes/controller/FrontController.php on line 86
+[14-Apr-2018 16:17:03 Europe/London] PHP Fatal error:  Uncaught Error: Class 'PrivateShop' not found in /home/newelviisufco/public_html/override/classes/controller/FrontController.php:86
+Stack trace:
+#0 /home/newelviisufco/public_html/init.php(31): FrontController->init()
+#1 /home/newelviisufco/public_html/modules/blockwishlist/managewishlist.php(31): require_once('/home/newelviis...')
+#2 {main}
+  thrown in /home/newelviisufco/public_html/override/classes/controller/FrontController.php on line 86
+[14-Apr-2018 16:17:04 Europe/London] PHP Fatal error:  Uncaught Error: Class 'PrivateShop' not found in /home/newelviisufco/public_html/override/classes/controller/FrontController.php:86
+Stack trace:
+#0 /home/newelviisufco/public_html/init.php(31): FrontController->init()
+#1 /home/newelviisufco/public_html/modules/blockwishlist/managewishlist.php(31): require_once('/home/newelviis...')
+#2 {main}
+  thrown in /home/newelviisufco/public_html/override/classes/controller/FrontController.php on line 86
+[14-Apr-2018 16:18:59 Europe/London] PHP Fatal error:  Uncaught Error: Class 'PrivateShop' not found in /home/newelviisufco/public_html/override/classes/controller/FrontController.php:86
+Stack trace:
+#0 /home/newelviisufco/public_html/init.php(31): FrontController->init()
+#1 /home/newelviisufco/public_html/modules/blockwishlist/managewishlist.php(31): require_once('/home/newelviis...')
+#2 {main}
+  thrown in /home/newelviisufco/public_html/override/classes/controller/FrontController.php on line 86
+[14-Apr-2018 16:19:00 Europe/London] PHP Fatal error:  Uncaught Error: Class 'PrivateShop' not found in /home/newelviisufco/public_html/override/classes/controller/FrontController.php:86
+Stack trace:
+#0 /home/newelviisufco/public_html/init.php(31): FrontController->init()
+#1 /home/newelviisufco/public_html/modules/blockwishlist/managewishlist.php(31): require_once('/home/newelviis...')
+#2 {main}
+  thrown in /home/newelviisufco/public_html/override/classes/controller/FrontController.php on line 86
+[14-Apr-2018 16:19:02 Europe/London] PHP Fatal error:  Uncaught Error: Class 'PrivateShop' not found in /home/newelviisufco/public_html/override/classes/controller/FrontController.php:86
+Stack trace:
+#0 /home/newelviisufco/public_html/init.php(31): FrontController->init()
+#1 /home/newelviisufco/public_html/modules/blockwishlist/managewishlist.php(31): require_once('/home/newelviis...')
+#2 {main}
+  thrown in /home/newelviisufco/public_html/override/classes/controller/FrontController.php on line 86
+[14-Apr-2018 16:19:04 Europe/London] PHP Fatal error:  Uncaught Error: Class 'PrivateShop' not found in /home/newelviisufco/public_html/override/classes/controller/FrontController.php:86
+Stack trace:
+#0 /home/newelviisufco/public_html/init.php(31): FrontController->init()
+#1 /home/newelviisufco/public_html/modules/blockwishlist/managewishlist.php(31): require_once('/home/newelviis...')
+#2 {main}
+  thrown in /home/newelviisufco/public_html/override/classes/controller/FrontController.php on line 86
+[14-Apr-2018 16:19:46 Europe/London] PHP Fatal error:  Uncaught Error: Class 'PrivateShop' not found in /home/newelviisufco/public_html/override/classes/controller/FrontController.php:86
+Stack trace:
+#0 /home/newelviisufco/public_html/init.php(31): FrontController->init()
+#1 /home/newelviisufco/public_html/modules/blockwishlist/managewishlist.php(31): require_once('/home/newelviis...')
+#2 {main}
+  thrown in /home/newelviisufco/public_html/override/classes/controller/FrontController.php on line 86
+[14-Apr-2018 16:19:46 Europe/London] PHP Fatal error:  Uncaught Error: Class 'PrivateShop' not found in /home/newelviisufco/public_html/override/classes/controller/FrontController.php:86
+Stack trace:
+#0 /home/newelviisufco/public_html/init.php(31): FrontController->init()
+#1 /home/newelviisufco/public_html/modules/blockwishlist/managewishlist.php(31): require_once('/home/newelviis...')
+#2 {main}
+  thrown in /home/newelviisufco/public_html/override/classes/controller/FrontController.php on line 86
+[02-Aug-2018 09:18:02 Europe/London] PHP Warning:  Declaration of Mail::Send($id_lang, $template, $subject, $template_vars, $to, $to_name = NULL, $from = NULL, $from_name = NULL, $file_attachment = NULL, $mode_smtp = NULL, $template_path = _PS_MAIL_DIR_, $die = false, $id_shop = NULL, $bcc = NULL, $reply_to = NULL) should be compatible with MailCore::Send($idLang, $template, $subject, $templateVars, $to, $toName = NULL, $from = NULL, $fromName = NULL, $fileAttachment = NULL, $mode_smtp = NULL, $templatePath = _PS_MAIL_DIR_, $die = false, $idShop = NULL, $bcc = NULL, $replyTo = NULL, $replyToName = NULL) in /home/elvico/public_html/override/classes/Mail.php on line 0

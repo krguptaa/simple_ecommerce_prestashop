@@ -63,7 +63,6 @@ global_settings:
         - ps_customersignin
         - ps_shoppingcart
       displayTop:
-        - ps_mainmenu
         - ps_searchbar
       displayHome:
         - ps_imageslider

@@ -1,0 +1,172 @@
+
+.ets_mm_megamenu.hook-default {
+  clear: none;
+  padding: 0;
+  margin-top: 0;
+}
+
+.layout_layout5.hook-default .mm_menus_ul .mm_menus_li:not(:nth-child(2)):after {
+  display: none;
+}
+.container .ets_mm_megamenu .container {
+  padding: 0;
+}
+
+.mm_block_type_product .thumbnail-container .product-description {
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+  height: auto;
+  position: relative;
+  text-align: left;
+  width: auto;
+}
+.layout_layout4 .mm_extra_item .cart-preview a {
+  padding: 13px 0;
+}
+.ets-dir-rtl .mm_block_type_product .thumbnail-container .product-description,
+.ets-dir-rtl .mm_block_type_product .thumbnail-container .product-title > a {
+  text-align: right;
+  display: block;
+}
+
+.mm_extra_item .cart-preview a {
+  display: block;
+  padding: 18px 0;
+}
+.mm_extra_item .user-info a {
+  display: inline-block;
+  padding: 18px 2px;
+  line-height: 22px;
+}
+.layout_layout4 .mm_extra_item .user-info a {
+    padding: 12px 2px;
+}
+.mm_block_type_product .thumbnail-container .thumbnail > img {
+  margin-bottom: 0;
+  margin-left: 0;
+}
+.mm_block_type_product .thumbnail-container .thumbnail {
+  float: left;
+  margin-right: 10px;
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+.mm_block_type_product .thumbnail-container .thumbnail{
+  border: 1px solid #D0D0D0;
+  overflow: hidden;
+}
+.mm_block_type_product .thumbnail-container {
+  box-shadow: none;
+  height: auto;
+  width: auto;
+  margin-bottom: 10px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+
+
+.mm_block_type_product .thumbnail-container:hover, .mm_block_type_product .thumbnail-container:hover .product-description {
+  box-shadow: none !important;
+}
+.mm_block_type_product .thumbnail-container .highlighted-informations {
+  box-shadow: none;
+  display: none;
+  position: static;
+}
+.mm_block_type_product .thumbnail-container .product-title > a {
+  font-weight: 600;
+  line-height: 18px;
+  text-align: left;
+}
+.mm_block_type_product .thumbnail-container .product-title {
+  margin-top: 0;
+  text-align: left;
+}
+.mm_block_type_product .product-miniature {
+  clear: left;
+  display: block;
+}
+.ets-dir-rtl .mm_block_type_product .product-miniature {
+  clear: right;
+}
+.mm_block_type_product .product-miniature:not(:last-child) {
+  margin-bottom: 10px;
+}
+.mm_block_type_product .product-price-and-shipping {
+  text-align: inherit !important;
+  margin-bottom: 10px;
+}
+.hook-default.layout_layout4 .mm_columns_ul > .mm_columns_li, 
+.hook-default.layout_layout5 .mm_columns_ul > .mm_columns_li {
+  border-left: medium none;
+}
+.ets-dir-rtl .mm_block_type_product .thumbnail-container .thumbnail {
+  float: right;
+  margin-right: 0px;
+  margin-left: 10px;
+  width: 90px;
+}
+.skin_default.layout_layout4.ets-dir-rtl .mm_columns_ul > .mm_columns_li:first-child, 
+.skin_default.layout_layout5.ets-dir-rtl .mm_columns_ul > .mm_columns_li:first-child {
+  border-left: none;
+}
+.layout_layout5.skin_default:not(.scroll_heading) .mm_blocks_li {
+  padding: 0 10px;
+}
+.hook-default.layout_layout5 .mm_menus_li > a {
+  padding: 12px 15px;
+}
+.hook-default .ets_mm_megamenu_content .container {
+  padding: 0;
+}
+.hook-default.layout_layout5:not(.scroll_heading) .mm_bubble_text {
+  top: -5px;
+}
+@media (min-width: 768px) and (max-width: 1199px){
+    .changestatus .mm_extra_item .cart-preview a {
+      display: block;
+      padding: 13px 0;
+    }
+}
+@media (min-width: 768px){
+    .hook-default.layout_layout4:not(.scroll_heading) .mm_blocks_li {
+      padding: 0 15px;
+    }
+    
+    .hook-default.layout_layout4:not(.scroll_heading) .mm_columns_ul > .mm_columns_li {
+      margin: 20px 0 0;
+    }
+    .hook-default.layout_layout4:not(.scroll_heading) .mm_columns_ul > .mm_columns_li, 
+    .hook-default.layout_layout5:not(.scroll_heading) .mm_columns_ul > .mm_columns_li {
+      margin: 10px 0;
+    }
+}
+@media (max-width: 767px){
+    .ets_mm_megamenu.hook-default {
+      background-color: rgba(0, 0, 0, 0);
+      margin-top: 10px;
+      padding: 0 15px;
+      width: 100%;
+    }
+    .mm_extra_item > div{
+        margin-left: 0;
+    }
+    .ets-dir-rtl .mm_menu_content_title {
+      float: right;
+    }
+}
+
+@media (max-width: 479px){
+    .mm_extra_item.active input[type="text"]{
+        width: 100%!important;
+    }
+}
+
+
+
+
+
+
+
+
+

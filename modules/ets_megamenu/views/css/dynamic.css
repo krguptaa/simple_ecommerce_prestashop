@@ -1,0 +1,661 @@
+.ets_mm_megamenu .mm_menus_li h4,
+.ets_mm_megamenu .mm_menus_li h5,
+.ets_mm_megamenu .mm_menus_li h6,
+.ets_mm_megamenu .mm_menus_li h1,
+.ets_mm_megamenu .mm_menus_li h2,
+.ets_mm_megamenu .mm_menus_li h3,
+.ets_mm_megamenu .mm_menus_li h4 *:not(i),
+.ets_mm_megamenu .mm_menus_li h5 *:not(i),
+.ets_mm_megamenu .mm_menus_li h6 *:not(i),
+.ets_mm_megamenu .mm_menus_li h1 *:not(i),
+.ets_mm_megamenu .mm_menus_li h2 *:not(i),
+.ets_mm_megamenu .mm_menus_li h3 *:not(i),
+.ets_mm_megamenu .mm_menus_li > a{
+    font-family: font1;
+}
+.ets_mm_megamenu *:not(.fa):not(i){
+    font-family: font2;
+}
+
+.ets_mm_block *{
+    font-size: text_fontsizepx;
+}    
+
+@media (min-width: 768px){
+/*layout 1*/
+    .ets_mm_megamenu.layout_layout1{
+        background: l1_color1;
+    }
+    .layout_layout1 .ets_mm_megamenu_content{
+      background: linear-gradient(#FFFFFF, #F2F2F2) repeat scroll 0 0 rgba(0, 0, 0, 0);
+      background: -webkit-linear-gradient(#FFFFFF, #F2F2F2) repeat scroll 0 0 rgba(0, 0, 0, 0);
+      background: -o-linear-gradient(#FFFFFF, #F2F2F2) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    }
+    .ets_mm_megamenu.layout_layout1:not(.ybc_vertical_menu) .mm_menus_ul{
+         background: l1_color1;
+    }
+
+    #header .layout_layout1:not(.ybc_vertical_menu) .mm_menus_li > a,
+    .layout_layout1 .ybc-menu-vertical-button,
+    .layout_layout1 .mm_extra_item *{
+        color: l1_color2
+    }
+    .layout_layout1 .ybc-menu-vertical-button .ybc-menu-button-toggle_icon_default .icon-bar{
+        background-color: l1_color2
+    }
+    .layout_layout1 .mm_menus_li:hover > a, 
+    .layout_layout1 .mm_menus_li.active > a,
+    #header .layout_layout1 .mm_menus_li:hover > a,
+    .layout_layout1:hover .ybc-menu-vertical-button,
+    .layout_layout1 .mm_extra_item button[type="submit"]:hover i,
+    #header .layout_layout1 .mm_menus_li.active > a{
+        color: l1_color3;
+    }
+    
+    .layout_layout1:not(.ybc_vertical_menu) .mm_menus_li > a:before,
+    .layout_layout1.ybc_vertical_menu:hover .ybc-menu-vertical-button:before,
+    .layout_layout1:hover .ybc-menu-vertical-button .ybc-menu-button-toggle_icon_default .icon-bar,
+    .ybc-menu-vertical-button.layout_layout1:hover{background-color: l1_color3;}
+    
+    .layout_layout1:not(.ybc_vertical_menu) .mm_menus_li:hover > a,
+    .ets_mm_megamenu.layout_layout1.ybc_vertical_menu:hover,
+    #header .layout_layout1:not(.ybc_vertical_menu) .mm_menus_li:hover > a,
+    .ets_mm_megamenu.layout_layout1.ybc_vertical_menu:hover{
+        background: l1_color4;
+    }
+    
+    .layout_layout1.ets_mm_megamenu .mm_columns_ul,
+    .layout_layout1.ybc_vertical_menu .mm_menus_ul{
+        background-color: l1_color5;
+    }
+    #header .layout_layout1 .ets_mm_block_content a,
+    #header .layout_layout1 .ets_mm_block_content p,
+    .layout_layout1.ybc_vertical_menu .mm_menus_li > a,
+    #header .layout_layout1.ybc_vertical_menu .mm_menus_li > a{
+        color: l1_color6;
+    }
+    
+    .layout_layout1 .mm_columns_ul h1,
+    .layout_layout1 .mm_columns_ul h2,
+    .layout_layout1 .mm_columns_ul h3,
+    .layout_layout1 .mm_columns_ul h4,
+    .layout_layout1 .mm_columns_ul h5,
+    .layout_layout1 .mm_columns_ul h6,
+    .layout_layout1 .mm_columns_ul .ets_mm_block > h1 a,
+    .layout_layout1 .mm_columns_ul .ets_mm_block > h2 a,
+    .layout_layout1 .mm_columns_ul .ets_mm_block > h3 a,
+    .layout_layout1 .mm_columns_ul .ets_mm_block > h4 a,
+    .layout_layout1 .mm_columns_ul .ets_mm_block > h5 a,
+    .layout_layout1 .mm_columns_ul .ets_mm_block > h6 a,
+    #header .layout_layout1 .mm_columns_ul .ets_mm_block > h1 a,
+    #header .layout_layout1 .mm_columns_ul .ets_mm_block > h2 a,
+    #header .layout_layout1 .mm_columns_ul .ets_mm_block > h3 a,
+    #header .layout_layout1 .mm_columns_ul .ets_mm_block > h4 a,
+    #header .layout_layout1 .mm_columns_ul .ets_mm_block > h5 a,
+    #header .layout_layout1 .mm_columns_ul .ets_mm_block > h6 a,
+    .layout_layout1 .mm_columns_ul .h1,
+    .layout_layout1 .mm_columns_ul .h2,
+    .layout_layout1 .mm_columns_ul .h3,
+    .layout_layout1 .mm_columns_ul .h4,
+    .layout_layout1 .mm_columns_ul .h5,
+    .layout_layout1 .mm_columns_ul .h6{
+        color: l1_color8;
+    }
+    
+    
+    .layout_layout1 li:hover > a,
+    .layout_layout1 li > a:hover,
+    .layout_layout1 .mm_tabs_li.open .mm_tab_toggle_title,
+    .layout_layout1 .mm_tabs_li.open .mm_tab_toggle_title a,
+    .layout_layout1 .mm_tabs_li:hover .mm_tab_toggle_title,
+    .layout_layout1 .mm_tabs_li:hover .mm_tab_toggle_title a,
+    #header .layout_layout1 .mm_tabs_li.open .mm_tab_toggle_title,
+    #header .layout_layout1 .mm_tabs_li.open .mm_tab_toggle_title a,
+    #header .layout_layout1 .mm_tabs_li:hover .mm_tab_toggle_title,
+    #header .layout_layout1 .mm_tabs_li:hover .mm_tab_toggle_title a,
+    .layout_layout1.ybc_vertical_menu .mm_menus_li > a,
+    #header .layout_layout1 li:hover > a,
+    .layout_layout1.ybc_vertical_menu .mm_menus_li:hover > a,
+    #header .layout_layout1.ybc_vertical_menu .mm_menus_li:hover > a,
+    #header .layout_layout1 .mm_columns_ul .mm_block_type_product .product-title > a:hover,
+    #header .layout_layout1 li > a:hover{color: l1_color7;}
+    
+    
+/*end layout 1*/
+    
+    
+    /*layout 2*/
+    .ets_mm_megamenu.layout_layout2{
+        background-color: l2_color1;
+    }
+    
+    #header .layout_layout2:not(.ybc_vertical_menu) .mm_menus_li > a,
+    .layout_layout2 .ybc-menu-vertical-button,
+    .layout_layout2 .mm_extra_item *{
+        color: l2_color2
+    }
+    .layout_layout2 .ybc-menu-vertical-button .ybc-menu-button-toggle_icon_default .icon-bar{
+        background-color: l2_color2
+    }
+    .layout_layout2:not(.ybc_vertical_menu) .mm_menus_li:hover > a, 
+    .layout_layout2:not(.ybc_vertical_menu) .mm_menus_li.active > a,
+    #header .layout_layout2:not(.ybc_vertical_menu) .mm_menus_li:hover > a,
+    .layout_layout2:hover .ybc-menu-vertical-button,
+    .layout_layout2 .mm_extra_item button[type="submit"]:hover i,
+    #header .layout_layout2:not(.ybc_vertical_menu) .mm_menus_li.active > a{color: l2_color3;}
+    
+    .layout_layout2:hover .ybc-menu-vertical-button .ybc-menu-button-toggle_icon_default .icon-bar{
+        background-color: l2_color3;
+    }
+    .layout_layout2:not(.ybc_vertical_menu) .mm_menus_li:hover > a,
+    #header .layout_layout2:not(.ybc_vertical_menu) .mm_menus_li:hover > a,
+    .ets_mm_megamenu.layout_layout2.ybc_vertical_menu:hover{
+        background-color: l2_color4;
+    }
+    
+    .layout_layout2.ets_mm_megamenu .mm_columns_ul,
+    .layout_layout2.ybc_vertical_menu .mm_menus_ul{
+        background-color: l2_color5;
+    }
+    #header .layout_layout2 .ets_mm_block_content a,
+    .layout_layout2.ybc_vertical_menu .mm_menus_li > a,
+    #header .layout_layout2.ybc_vertical_menu .mm_menus_li > a,
+    #header .layout_layout2 .ets_mm_block_content p{
+        color: l2_color6;
+    }
+    
+    .layout_layout2 .mm_columns_ul h1,
+    .layout_layout2 .mm_columns_ul h2,
+    .layout_layout2 .mm_columns_ul h3,
+    .layout_layout2 .mm_columns_ul h4,
+    .layout_layout2 .mm_columns_ul h5,
+    .layout_layout2 .mm_columns_ul h6,
+    .layout_layout2 .mm_columns_ul .ets_mm_block > h1 a,
+    .layout_layout2 .mm_columns_ul .ets_mm_block > h2 a,
+    .layout_layout2 .mm_columns_ul .ets_mm_block > h3 a,
+    .layout_layout2 .mm_columns_ul .ets_mm_block > h4 a,
+    .layout_layout2 .mm_columns_ul .ets_mm_block > h5 a,
+    .layout_layout2 .mm_columns_ul .ets_mm_block > h6 a,
+    #header .layout_layout2 .mm_columns_ul .ets_mm_block > h1 a,
+    #header .layout_layout2 .mm_columns_ul .ets_mm_block > h2 a,
+    #header .layout_layout2 .mm_columns_ul .ets_mm_block > h3 a,
+    #header .layout_layout2 .mm_columns_ul .ets_mm_block > h4 a,
+    #header .layout_layout2 .mm_columns_ul .ets_mm_block > h5 a,
+    #header .layout_layout2 .mm_columns_ul .ets_mm_block > h6 a,
+    .layout_layout2 .mm_columns_ul .h1,
+    .layout_layout2 .mm_columns_ul .h2,
+    .layout_layout2 .mm_columns_ul .h3,
+    .layout_layout2 .mm_columns_ul .h4,
+    .layout_layout2 .mm_columns_ul .h5,
+    .layout_layout2 .mm_columns_ul .h6{
+        color: l2_color8;
+    }
+    
+    
+    .layout_layout2 li:hover > a,
+    .layout_layout2 li > a:hover,
+    .layout_layout2 .mm_tabs_li.open .mm_tab_toggle_title,
+    .layout_layout2 .mm_tabs_li.open .mm_tab_toggle_title a,
+    .layout_layout2 .mm_tabs_li:hover .mm_tab_toggle_title,
+    .layout_layout2 .mm_tabs_li:hover .mm_tab_toggle_title a,
+    #header .layout_layout2 .mm_tabs_li.open .mm_tab_toggle_title,
+    #header .layout_layout2 .mm_tabs_li.open .mm_tab_toggle_title a,
+    #header .layout_layout2 .mm_tabs_li:hover .mm_tab_toggle_title,
+    #header .layout_layout2 .mm_tabs_li:hover .mm_tab_toggle_title a,
+    #header .layout_layout2 li:hover > a,
+    .layout_layout2.ybc_vertical_menu .mm_menus_li > a,
+    .layout_layout2.ybc_vertical_menu .mm_menus_li:hover > a,
+    #header .layout_layout2.ybc_vertical_menu .mm_menus_li:hover > a,
+    #header .layout_layout2 .mm_columns_ul .mm_block_type_product .product-title > a:hover,
+    #header .layout_layout2 li > a:hover{color: l2_color7;}
+    
+    
+    
+    /*layout 3*/
+    .ets_mm_megamenu.layout_layout3,
+    .layout_layout3 .mm_tab_li_content{
+        background-color: l3_color1;
+        
+    }
+    #header .layout_layout3:not(.ybc_vertical_menu) .mm_menus_li > a,
+    .layout_layout3 .ybc-menu-vertical-button,
+    .layout_layout3 .mm_extra_item *{
+        color: l3_color2
+    }
+    .layout_layout3 .ybc-menu-vertical-button .ybc-menu-button-toggle_icon_default .icon-bar{
+        background-color: l3_color2
+    }
+    .layout_layout3 .mm_menus_li:hover > a, 
+    .layout_layout3 .mm_menus_li.active > a,
+    .layout_layout3 .mm_extra_item button[type="submit"]:hover i,
+    #header .layout_layout3 .mm_menus_li:hover > a,
+    #header .layout_layout3 .mm_menus_li.active > a,
+    .layout_layout3:hover .ybc-menu-vertical-button,
+    .layout_layout3:hover .ybc-menu-vertical-button .ybc-menu-button-toggle_icon_default .icon-bar{
+        color: l3_color3;
+    }
+    
+    .layout_layout3:not(.ybc_vertical_menu) .mm_menus_li:hover > a,
+    #header .layout_layout3:not(.ybc_vertical_menu) .mm_menus_li:hover > a,
+    .ets_mm_megamenu.layout_layout3.ybc_vertical_menu:hover,
+    .layout_layout3 .mm_tabs_li.open .mm_columns_contents_ul,
+    .layout_layout3 .mm_tabs_li.open .mm_tab_li_content {
+        background-color: l3_color4;
+    }
+    .layout_layout3 .mm_tabs_li.open.mm_tabs_has_content .mm_tab_li_content .mm_tab_name::before{
+        border-right-color: l3_color4;
+    }
+    .layout_layout3.ets_mm_megamenu .mm_columns_ul,
+    .ybc_vertical_menu.layout_layout3 .mm_menus_ul.ets_mn_submenu_full_height .mm_menus_li:hover a::before,
+    .layout_layout3.ybc_vertical_menu .mm_menus_ul{
+        background-color: l3_color5;
+        border-color: l3_color5;
+    }
+    #header .layout_layout3 .ets_mm_block_content a,
+    #header .layout_layout3 .ets_mm_block_content p,
+    .layout_layout3.ybc_vertical_menu .mm_menus_li > a,
+    #header .layout_layout3.ybc_vertical_menu .mm_menus_li > a{
+        color: l3_color6;
+    }
+    
+    .layout_layout3 .mm_columns_ul h1,
+    .layout_layout3 .mm_columns_ul h2,
+    .layout_layout3 .mm_columns_ul h3,
+    .layout_layout3 .mm_columns_ul h4,
+    .layout_layout3 .mm_columns_ul h5,
+    .layout_layout3 .mm_columns_ul h6,
+    .layout_layout3 .mm_columns_ul .ets_mm_block > h1 a,
+    .layout_layout3 .mm_columns_ul .ets_mm_block > h2 a,
+    .layout_layout3 .mm_columns_ul .ets_mm_block > h3 a,
+    .layout_layout3 .mm_columns_ul .ets_mm_block > h4 a,
+    .layout_layout3 .mm_columns_ul .ets_mm_block > h5 a,
+    .layout_layout3 .mm_columns_ul .ets_mm_block > h6 a,
+    #header .layout_layout3 .mm_columns_ul .ets_mm_block > h1 a,
+    #header .layout_layout3 .mm_columns_ul .ets_mm_block > h2 a,
+    #header .layout_layout3 .mm_columns_ul .ets_mm_block > h3 a,
+    #header .layout_layout3 .mm_columns_ul .ets_mm_block > h4 a,
+    #header .layout_layout3 .mm_columns_ul .ets_mm_block > h5 a,
+    #header .layout_layout3 .mm_columns_ul .ets_mm_block > h6 a,
+    .layout_layout3 .mm_columns_ul .h1,
+    .layout_layout3 .mm_columns_ul .h2,
+    .layout_layout3 .mm_columns_ul .h3,
+    .layout_layout3.ybc_vertical_menu .mm_menus_li:hover > a,
+    #header .layout_layout3.ybc_vertical_menu .mm_menus_li:hover > a,
+    .layout_layout3 .mm_columns_ul .h4,
+    .layout_layout3 .mm_columns_ul .h5,
+    .layout_layout3 .mm_columns_ul .h6{
+        color: l3_color8;
+    }
+    
+    
+    .layout_layout3 li:hover > a,
+    .layout_layout3 li > a:hover,
+    .layout_layout3 .mm_tabs_li.open .mm_tab_toggle_title,
+    .layout_layout3 .mm_tabs_li.open .mm_tab_toggle_title a,
+    .layout_layout3 .mm_tabs_li:hover .mm_tab_toggle_title,
+    .layout_layout3 .mm_tabs_li:hover .mm_tab_toggle_title a,
+    #header .layout_layout3 .mm_tabs_li.open .mm_tab_toggle_title,
+    #header .layout_layout3 .mm_tabs_li.open .mm_tab_toggle_title a,
+    #header .layout_layout3 .mm_tabs_li:hover .mm_tab_toggle_title,
+    #header .layout_layout3 .mm_tabs_li:hover .mm_tab_toggle_title a,
+    #header .layout_layout3 li:hover > a,
+    #header .layout_layout3 .mm_columns_ul .mm_block_type_product .product-title > a:hover,
+    #header .layout_layout3 li > a:hover,
+    .layout_layout3.ybc_vertical_menu .mm_menus_li > a,
+    .layout_layout3 .has-sub .ets_mm_categories li > a:hover,
+    #header .layout_layout3 .has-sub .ets_mm_categories li > a:hover{color: l3_color7;}
+    
+    
+    /*layout 4*/
+    
+    .ets_mm_megamenu.layout_layout4{
+        background-color: l4_color1;
+    }
+    .ets_mm_megamenu.layout_layout4:not(.ybc_vertical_menu) .mm_menus_ul{
+         background: l4_color1;
+    }
+
+    #header .layout_layout4:not(.ybc_vertical_menu) .mm_menus_li > a,
+    .layout_layout4 .ybc-menu-vertical-button,
+    .layout_layout4 .mm_extra_item *{
+        color: l4_color2
+    }
+    .layout_layout4 .ybc-menu-vertical-button .ybc-menu-button-toggle_icon_default .icon-bar{
+        background-color: l4_color2
+    }
+    
+    .layout_layout4 .mm_menus_li:hover > a, 
+    .layout_layout4 .mm_menus_li.active > a,
+    #header .layout_layout4 .mm_menus_li:hover > a,
+    .layout_layout4:hover .ybc-menu-vertical-button,
+    #header .layout_layout4 .mm_menus_li.active > a{color: l4_color3;}
+    
+    .layout_layout4:hover .ybc-menu-vertical-button .ybc-menu-button-toggle_icon_default .icon-bar{
+        background-color: l4_color3;
+    }
+    
+    .layout_layout4:not(.ybc_vertical_menu) .mm_menus_li:hover > a,
+    .layout_layout4:not(.ybc_vertical_menu) .mm_menus_li.active > a,
+    .layout_layout4:not(.ybc_vertical_menu) .mm_menus_li:hover > span, 
+    .layout_layout4:not(.ybc_vertical_menu) .mm_menus_li.active > span,
+    #header .layout_layout4:not(.ybc_vertical_menu) .mm_menus_li:hover > a, 
+    #header .layout_layout4:not(.ybc_vertical_menu) .mm_menus_li.active > a,
+    .layout_layout4:not(.ybc_vertical_menu) .mm_menus_li:hover > a,
+    #header .layout_layout4:not(.ybc_vertical_menu) .mm_menus_li:hover > a,
+    .ets_mm_megamenu.layout_layout4.ybc_vertical_menu:hover,
+    #header .layout_layout4 .mm_menus_li:hover > span, 
+    #header .layout_layout4 .mm_menus_li.active > span{
+        background-color: l4_color4;
+    }
+    .layout_layout4 .ets_mm_megamenu_content {
+      border-bottom-color: l4_color4;
+    }
+    
+    .layout_layout4.ets_mm_megamenu .mm_columns_ul,
+    .ybc_vertical_menu.layout_layout4 .mm_menus_ul .mm_menus_li:hover a::before,
+    .layout_layout4.ybc_vertical_menu .mm_menus_ul{
+        background-color: l4_color5;
+    }
+    #header .layout_layout4 .ets_mm_block_content a,
+    .layout_layout4.ybc_vertical_menu .mm_menus_li > a,
+    #header .layout_layout4.ybc_vertical_menu .mm_menus_li > a,
+    #header .layout_layout4 .ets_mm_block_content p{
+        color: l4_color6;
+    }
+    
+    .layout_layout4 .mm_columns_ul h1,
+    .layout_layout4 .mm_columns_ul h2,
+    .layout_layout4 .mm_columns_ul h3,
+    .layout_layout4 .mm_columns_ul h4,
+    .layout_layout4 .mm_columns_ul h5,
+    .layout_layout4 .mm_columns_ul h6,
+    .layout_layout4 .mm_columns_ul .ets_mm_block > h1 a,
+    .layout_layout4 .mm_columns_ul .ets_mm_block > h2 a,
+    .layout_layout4 .mm_columns_ul .ets_mm_block > h3 a,
+    .layout_layout4 .mm_columns_ul .ets_mm_block > h4 a,
+    .layout_layout4 .mm_columns_ul .ets_mm_block > h5 a,
+    .layout_layout4 .mm_columns_ul .ets_mm_block > h6 a,
+    #header .layout_layout4 .mm_columns_ul .ets_mm_block > h1 a,
+    #header .layout_layout4 .mm_columns_ul .ets_mm_block > h2 a,
+    #header .layout_layout4 .mm_columns_ul .ets_mm_block > h3 a,
+    #header .layout_layout4 .mm_columns_ul .ets_mm_block > h4 a,
+    #header .layout_layout4 .mm_columns_ul .ets_mm_block > h5 a,
+    #header .layout_layout4 .mm_columns_ul .ets_mm_block > h6 a,
+    .layout_layout4 .mm_columns_ul .h1,
+    .layout_layout4 .mm_columns_ul .h2,
+    .layout_layout4 .mm_columns_ul .h3,
+    .layout_layout4 .mm_columns_ul .h4,
+    .layout_layout4 .mm_columns_ul .h5,
+    .layout_layout4 .mm_columns_ul .h6{
+        color: l4_color8;
+    }
+    
+    .layout_layout4 li:hover > a,
+    .layout_layout4 li > a:hover,
+    .layout_layout4 .mm_tabs_li.open .mm_tab_toggle_title,
+    .layout_layout4 .mm_tabs_li.open .mm_tab_toggle_title a,
+    .layout_layout4 .mm_tabs_li:hover .mm_tab_toggle_title,
+    .layout_layout4 .mm_tabs_li:hover .mm_tab_toggle_title a,
+    #header .layout_layout4 .mm_tabs_li.open .mm_tab_toggle_title,
+    #header .layout_layout4 .mm_tabs_li.open .mm_tab_toggle_title a,
+    #header .layout_layout4 .mm_tabs_li:hover .mm_tab_toggle_title,
+    #header .layout_layout4 .mm_tabs_li:hover .mm_tab_toggle_title a,
+    #header .layout_layout4 li:hover > a,
+    .layout_layout4.ybc_vertical_menu .mm_menus_li > a,
+    .layout_layout4.ybc_vertical_menu .mm_menus_li:hover > a,
+    #header .layout_layout4.ybc_vertical_menu .mm_menus_li:hover > a,
+    #header .layout_layout4 .mm_columns_ul .mm_block_type_product .product-title > a:hover,
+    #header .layout_layout4 li > a:hover{color: l4_color7;}
+    
+    /* end layout 4*/
+    
+    
+    
+    
+    /* Layout 5*/
+    .ets_mm_megamenu.layout_layout5{
+        background-color: l5_color1;
+    }
+    .ets_mm_megamenu.layout_layout5:not(.ybc_vertical_menu) .mm_menus_ul{
+         background: l5_color1;
+    }
+    
+    #header .layout_layout5:not(.ybc_vertical_menu) .mm_menus_li > a,
+    .layout_layout5 .ybc-menu-vertical-button,
+    .layout_layout5 .mm_extra_item *{
+        color: l5_color2
+    }
+    .layout_layout5 .ybc-menu-vertical-button .ybc-menu-button-toggle_icon_default .icon-bar{
+        background-color: l5_color2
+    }
+    .layout_layout5 .mm_menus_li:hover > a, 
+    .layout_layout5 .mm_menus_li.active > a,
+    .layout_layout5 .mm_extra_item button[type="submit"]:hover i,
+    #header .layout_layout5 .mm_menus_li:hover > a,
+    #header .layout_layout5 .mm_menus_li.active > a,
+    .layout_layout5:hover .ybc-menu-vertical-button{
+        color: l5_color3;
+    }
+    .layout_layout5:hover .ybc-menu-vertical-button .ybc-menu-button-toggle_icon_default .icon-bar{
+        background-color: l5_color3;
+    }
+    
+    .layout_layout5 .mm_menus_li > a:before{background-color: l5_color3;}
+    
+
+    .layout_layout5:not(.ybc_vertical_menu) .mm_menus_li:hover > a,
+    #header .layout_layout5:not(.ybc_vertical_menu) .mm_menus_li:hover > a,
+    .ets_mm_megamenu.layout_layout5.ybc_vertical_menu:hover,
+    #header .layout_layout5 .mm_menus_li:hover > a{
+        background-color: l5_color4;
+    }
+    
+    .layout_layout5.ets_mm_megamenu .mm_columns_ul,
+    .ybc_vertical_menu.layout_layout5 .mm_menus_ul .mm_menus_li:hover a::before,
+    .layout_layout5.ybc_vertical_menu .mm_menus_ul{
+        background-color: l5_color5;
+    }
+    #header .layout_layout5 .ets_mm_block_content a,
+    .layout_layout5.ybc_vertical_menu .mm_menus_li > a,
+    #header .layout_layout5.ybc_vertical_menu .mm_menus_li > a,
+    #header .layout_layout5 .ets_mm_block_content p{
+        color: l5_color6;
+    }
+    
+    .layout_layout5 .mm_columns_ul h1,
+    .layout_layout5 .mm_columns_ul h2,
+    .layout_layout5 .mm_columns_ul h3,
+    .layout_layout5 .mm_columns_ul h4,
+    .layout_layout5 .mm_columns_ul h5,
+    .layout_layout5 .mm_columns_ul h6,
+    .layout_layout5 .mm_columns_ul .ets_mm_block > h1 a,
+    .layout_layout5 .mm_columns_ul .ets_mm_block > h2 a,
+    .layout_layout5 .mm_columns_ul .ets_mm_block > h3 a,
+    .layout_layout5 .mm_columns_ul .ets_mm_block > h4 a,
+    .layout_layout5 .mm_columns_ul .ets_mm_block > h5 a,
+    .layout_layout5 .mm_columns_ul .ets_mm_block > h6 a,
+    #header .layout_layout5 .mm_columns_ul .ets_mm_block > h1 a,
+    #header .layout_layout5 .mm_columns_ul .ets_mm_block > h2 a,
+    #header .layout_layout5 .mm_columns_ul .ets_mm_block > h3 a,
+    #header .layout_layout5 .mm_columns_ul .ets_mm_block > h4 a,
+    #header .layout_layout5 .mm_columns_ul .ets_mm_block > h5 a,
+    #header .layout_layout5 .mm_columns_ul .ets_mm_block > h6 a,
+    .layout_layout5 .mm_columns_ul .h1,
+    .layout_layout5 .mm_columns_ul .h2,
+    .layout_layout5 .mm_columns_ul .h3,
+    .layout_layout5 .mm_columns_ul .h4,
+    .layout_layout5 .mm_columns_ul .h5,
+    .layout_layout5 .mm_columns_ul .h6{
+        color: l5_color8;
+    }
+    
+    .layout_layout5 li:hover > a,
+    .layout_layout5 li > a:hover,
+    .layout_layout5 .mm_tabs_li.open .mm_tab_toggle_title,
+    .layout_layout5 .mm_tabs_li.open .mm_tab_toggle_title a,
+    .layout_layout5 .mm_tabs_li:hover .mm_tab_toggle_title,
+    .layout_layout5 .mm_tabs_li:hover .mm_tab_toggle_title a,
+    #header .layout_layout5 .mm_tabs_li.open .mm_tab_toggle_title,
+    #header .layout_layout5 .mm_tabs_li.open .mm_tab_toggle_title a,
+    #header .layout_layout5 .mm_tabs_li:hover .mm_tab_toggle_title,
+    #header .layout_layout5 .mm_tabs_li:hover .mm_tab_toggle_title a,
+    .layout_layout5.ybc_vertical_menu .mm_menus_li > a,
+    #header .layout_layout5 li:hover > a,
+    .layout_layout5.ybc_vertical_menu .mm_menus_li:hover > a,
+    #header .layout_layout5.ybc_vertical_menu .mm_menus_li:hover > a,
+    #header .layout_layout5 .mm_columns_ul .mm_block_type_product .product-title > a:hover,
+    #header .layout_layout5 li > a:hover{color: l5_color7;}
+    
+    /*end layout 5*/
+}
+
+
+@media (max-width: 767px){
+    .ybc-menu-vertical-button,
+    .transition_floating .close_menu, 
+    .transition_full .close_menu{
+        background-color: m_bar_bg;
+        color: m_bar_color;
+    }
+    .transition_floating .close_menu *, 
+    .transition_full .close_menu *,
+    .ybc-menu-vertical-button .icon-bar{
+        color: m_bar_color;
+    }
+
+    .close_menu .icon-bar,
+    .ybc-menu-vertical-button .icon-bar {
+      background-color: m_bar_color;
+    }
+    .mm_menus_back_icon{
+        border-color: m_bar_color;
+    }
+    
+    .layout_layout1 .mm_menus_li:hover > a, 
+    #header .layout_layout1 .mm_menus_li:hover > a{color: l1_color3;}
+    .layout_layout1 .mm_has_sub.mm_menus_li:hover .arrow::before{
+        /*border-color: l1_color3;*/
+    }
+    
+    
+    .layout_layout1 .mm_menus_li:hover > a,
+    #header .layout_layout1 .mm_menus_li:hover > a{
+        background-color: l1_color4;
+    }
+    .layout_layout1 li:hover > a,
+    .layout_layout1 li > a:hover,
+    #header .layout_layout1 li:hover > a,
+    #header .layout_layout1 .mm_columns_ul .mm_block_type_product .product-title > a:hover,
+    #header .layout_layout1 li > a:hover{
+        color: l1_color7;
+    }
+    
+    /*------------------------------------------------------*/
+    
+    
+    .layout_layout2 .mm_menus_li:hover > a, 
+    #header .layout_layout2 .mm_menus_li:hover > a{color: l2_color3;}
+    .layout_layout2 .mm_has_sub.mm_menus_li:hover .arrow::before{
+        border-color: l2_color3;
+    }
+    
+    .layout_layout2 .mm_menus_li:hover > a,
+    #header .layout_layout2 .mm_menus_li:hover > a{
+        background-color: l2_color4;
+    }
+    .layout_layout2 li:hover > a,
+    .layout_layout2 li > a:hover,
+    #header .layout_layout2 li:hover > a,
+    #header .layout_layout2 .mm_columns_ul .mm_block_type_product .product-title > a:hover,
+    #header .layout_layout2 li > a:hover{color: l2_color7;}
+    
+    /*------------------------------------------------------*/
+    
+    
+
+    .layout_layout3 .mm_menus_li:hover > a, 
+    #header .layout_layout3 .mm_menus_li:hover > a{
+        color: l3_color3;
+    }
+    .layout_layout3 .mm_has_sub.mm_menus_li:hover .arrow::before{
+        border-color: l3_color3;
+    }
+    
+    .layout_layout3 .mm_menus_li:hover > a,
+    #header .layout_layout3 .mm_menus_li:hover > a{
+        background-color: l3_color4;
+    }
+    .layout_layout3 li:hover > a,
+    .layout_layout3 li > a:hover,
+    #header .layout_layout3 li:hover > a,
+    #header .layout_layout3 .mm_columns_ul .mm_block_type_product .product-title > a:hover,
+    #header .layout_layout3 li > a:hover,
+    .layout_layout3 .has-sub .ets_mm_categories li > a:hover,
+    #header .layout_layout3 .has-sub .ets_mm_categories li > a:hover{color: l3_color7;}
+    
+    
+    
+    /*------------------------------------------------------*/
+    
+    
+    .layout_layout4 .mm_menus_li:hover > a, 
+    #header .layout_layout4 .mm_menus_li:hover > a{
+        color: l4_color3;
+    }
+    
+    .layout_layout4 .mm_has_sub.mm_menus_li:hover .arrow::before{
+        border-color: l4_color3;
+    }
+    
+    .layout_layout4 .mm_menus_li:hover > a,
+    #header .layout_layout4 .mm_menus_li:hover > a{
+        background-color: l4_color4;
+    }
+    .layout_layout4 li:hover > a,
+    .layout_layout4 li > a:hover,
+    #header .layout_layout4 li:hover > a,
+    #header .layout_layout4 .mm_columns_ul .mm_block_type_product .product-title > a:hover,
+    #header .layout_layout4 li > a:hover{color: l4_color7;}
+    
+    
+    /*------------------------------------------------------*/
+    
+    
+    .layout_layout5 .mm_menus_li:hover > a, 
+    #header .layout_layout5 .mm_menus_li:hover > a{color: l5_color3;}
+    .layout_layout5 .mm_has_sub.mm_menus_li:hover .arrow::before{
+        border-color: l5_color3;
+    }
+    
+    .layout_layout5 .mm_menus_li:hover > a,
+    #header .layout_layout5 .mm_menus_li:hover > a{
+        background-color: l5_color4;
+    }
+    .layout_layout5 li:hover > a,
+    .layout_layout5 li > a:hover,
+    #header .layout_layout5 li:hover > a,
+    #header .layout_layout5 .mm_columns_ul .mm_block_type_product .product-title > a:hover,
+    #header .layout_layout5 li > a:hover{color: l5_color7;}
+    
+    /*------------------------------------------------------*/
+    
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
