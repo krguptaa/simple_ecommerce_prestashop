@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+#prestaspeed_block a {
+background:  url('../logo.png') #F8F8F8 no-repeat scroll center 25px;
+}
+.bootstrap #dashboard .loading .data_value2:before{font-size:0px}
+
+.bootstrap #dashboard .data_list_large .data_value2,data_value2,.bootstrap #dashboard .data_value2 {
+	text-align: right;
+line-height: 0.6em;
+position: absolute;
+top: 0;
+right: 0;
+padding: 8px 0 0 0;
+	}
+	

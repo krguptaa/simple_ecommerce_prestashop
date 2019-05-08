@@ -2809,7 +2809,7 @@
   ),
   'ObjectModel' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/ObjectModel.php',
     'type' => 'abstract class',
     'override' => false,
   ),

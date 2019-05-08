@@ -113,8 +113,8 @@
 			<i class="material-icons js-mobile-menu">menu</i>
 
 			{* Logo *}
-			<a id="header_logo" href="{$default_tab_link|escape:'html':'UTF-8'}"></a>
-			<span id="shop_version">{$ps_version}</span>
+			<a id="header_logo" href="{$default_tab_link|escape:'html':'UTF-8'}">Grocery </a>
+
 
 			{* Quick access *}
 			{if count($quick_access) >= 0}
