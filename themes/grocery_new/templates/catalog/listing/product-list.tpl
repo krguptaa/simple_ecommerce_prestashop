@@ -27,11 +27,7 @@
 {block name='content'}
   <section id="main">
 
-    {block name='product_list_header'}
-      <h2 id="js-product-list-header" class="h2">{$listing.label}</h2>
-    {/block}
-
-    <section id="products">
+      <section id="products">
       {if $listing.products|count}
 
         <div id="">
