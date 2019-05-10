@@ -85,6 +85,8 @@
                           <li><a href="#"><img src="inc/img/english.jpg" alt=""/></a></li>
                           <li><a href="#"><img src="inc/img/french.jpg" alt=""/></a></li>
                         </ul>
+
+                        {hook h='displayTop'}
                     </div>
                   </div>
                 

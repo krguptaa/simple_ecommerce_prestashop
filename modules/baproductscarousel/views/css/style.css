@@ -1,0 +1,57 @@
+.col-lg-2,.col-lg-3{
+	text-align: right;
+	margin-right: 10px;
+}
+.dropss .group_block:hover{
+	cursor: pointer;
+}
+.dropss .group_block{ 
+	color: #00aff0 !important;
+}
+.dropss .active .group_block{ 
+	color: #000000 !important;
+}
+.rga{
+	border: none;
+	list-style: none;
+}
+.rga:hover{
+	background: #0A246A !important;
+	color:#ffffff;
+	cursor: pointer;
+}
+.icon_hide:hover,.group_block:hover{
+	cursor: pointer;
+}
+.rga:nth-child(even){
+	background: #eee;
+}
+.reser{
+	float: left;
+	margin-right: 5px;
+}
+.ss{
+	display: none;
+	border: 1px solid black;
+}
+.active .group_block{
+	cursor: pointer !important;
+	background: #ffffff !important;
+}
+.baproductscarousel tr .placements{
+	text-transform: capitalize;
+}
+.bashortcode{
+	text-transform: inherit !important;
+}
+.searchLoader1{
+	display: none ;
+	margin-right: 9px;
+}
+.bashortcode{
+	cursor: text !important;
+	width: 270px;
+}
+.removeval{
+	cursor: pointer;
+}
