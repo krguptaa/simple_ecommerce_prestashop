@@ -1,0 +1,1 @@
+# Free addon for google translate
